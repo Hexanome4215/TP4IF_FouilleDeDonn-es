@@ -1,0 +1,23 @@
+\newcommand{\nationclass}{article}
+\input{nation/nation}
+\input{nation/extra}
+
+\newcommand{\eng}[1]{\textsl{#1}}
+
+% \nHeader[LOGO_PATH]{...}{...}{...}{...}
+\nHeader[INSA]{Fouille de données}{Travaux pratique}{Datamining}{Gaëtan \textsc{Bloch} \& Maxime \textsc{Gaudin}}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\input{description_donnees} 
+\input{workflow}
+
+\input{type_pays}
+\input{new_module}
+
+\newpage
+\printglossaries
+%\bibliography{references}
+\end{document}

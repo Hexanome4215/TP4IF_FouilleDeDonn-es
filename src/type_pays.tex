@@ -1,0 +1,39 @@
+\newpage
+\section{Secteurs d'activité des différents pays}
+Pour cette première étude de cas, nous avons choisi d'utiliser les données afin de caractériser l'activité d'un pays en fonction de :
+\todo{Ajouter le nom de la colonne correspondante}
+\begin{itemize}
+	\item La taille du pays
+	\item La population
+	\item Le \gls{PIB}
+	\item Le \gls{RNB}
+	\item Les exports industriels
+\end{itemize}
+
+Notre démarche dans cette analyse est simple : Après avoir établi un \eng{clustering} sur le pourcentage du \gls{PIB} dû à l'agriculture, l'industrie et les services, nous avons créer un arbre de décision prenant pour critère de sélection les données citées ci-dessus.
+
+\subsection{Sélection des données}
+\todo{Ajouter l'environnement subimages pour une meilleur intégration}
+Après avoir sélectionné les colonnes qui nous intéressent ( \ie \texttt{Agriculture, value added (\% of GDP)}, \texttt{Industry, value added (\% of GDP)} et \texttt{Service, value added (\% of GDP)}), nous obtenons la matrice suivante : % \wrappedimag
+
+Le diagramme de \todo{boite à chaussure??} est : % \wrappedimage
+
+Enfin le diagramme \eng{parallel coordinates} : 
+
+\todo{Guinée : 95\% de son PIB est industriel}
+
+\subsection{\eng{Clustering}}
+\subsubsection{\eng{Clustering} hiérarchique}
+Le choix du type de \eng{clustering} hiérarchique est, \apriori délicat. Voici les résultats obtenus avec un \eng{clustering} hiérarchique :
+\begin{description}
+	\item [SINGLE] % \image
+	\item [COMPLETE] % \image
+\end{description}
+
+\subsubsection{\eng{Clustering K-Means}}
+
+\paragraph{Vérification de la stabilité du \eng{clustering}}
+\todo{Inclure le tableau de vérification de l'entropie}
+
+\subsection{Interprétation}
+\subsubsection{Arbre de décision}

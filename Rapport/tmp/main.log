@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/MacPorts 2010_0) (format=pdflatex 2011.1.9)  21 FEB 2011 13:01
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/MacPorts 2010_0) (format=pdflatex 2011.1.9)  21 FEB 2011 13:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1429,12 +1429,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--11
 \tf@toc=\write11
 \openout11 = `main.toc'.
 
- (./description_donnees.tex) (./workflow.tex [1
+ (./description_donnees.tex) [1
 
 \openout6 = `main.ist'.
 
-{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./preprocessing.
-tex
+{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./workflow.tex (
+./preprocessing.tex
 <../img/CorrelationMatrix.png, id=124, 373.395pt x 357.335pt>
 File: ../img/CorrelationMatrix.png Graphic file (type png)
 
@@ -1469,14 +1469,20 @@ n-ti-en-nent des lignes n'ex-hibant pas toutes les colonnes. Ce probl^^Reme
 LaTeX Font Warning: Font shape `OT1/pag/bc/sl' undefined
 (Font)              using `OT1/pag/bc/n' instead on input line 31.
 
-<../img/ScatterPlot.png, id=141, 728.7225pt x 612.2875pt>
+<../img/ScatterPlot.png, id=136, 728.7225pt x 612.2875pt>
 File: ../img/ScatterPlot.png Graphic file (type png)
 
 <use ../img/ScatterPlot.png>
-<../img/ParallelCoordinates.png, id=142, 817.0525pt x 727.71875pt>
+<../img/ParallelCoordinates.png, id=137, 817.0525pt x 727.71875pt>
 File: ../img/ParallelCoordinates.png Graphic file (type png)
 
 <use ../img/ParallelCoordinates.png>
+Overfull \vbox (2.33217pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (8.64706pt too high) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1484,11 +1490,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3 <../img/ScatterPlot.png (PNG copy)> <../img/ParallelCoordinates.png (PNG cop
-y)>] <../img/Dendrogram.png, id=152, 1284.8pt x 732.7375pt>
+y)>] <../img/Dendrogram.png, id=150, 1284.8pt x 732.7375pt>
 File: ../img/Dendrogram.png Graphic file (type png)
 
 <use ../img/Dendrogram.png>
-<../img/BoxPlot.png, id=153, 1284.8pt x 732.7375pt>
+<../img/BoxPlot.png, id=151, 1284.8pt x 732.7375pt>
 File: ../img/BoxPlot.png Graphic file (type png)
  <use ../img/BoxPlot.png>
 
@@ -1542,12 +1548,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7] (../tmp//main.gls) (../tmp//main.acr
-Underfull \hbox (badness 10000) in paragraph at lines 5--8
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--11
+Underfull \hbox (badness 10000) in paragraph at lines 7--11
 
  []
 
@@ -1585,8 +1591,8 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 23.
-<../img/INSA.jpg, id=213, 530.73282pt x 285.31593pt>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 27.
+<../img/INSA.jpg, id=210, 530.73282pt x 285.31593pt>
 File: ../img/INSA.jpg Graphic file (type jpg)
  <use ../img/INSA.jpg>
 
@@ -1598,9 +1604,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [9
 
  <../img/INSA.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 23.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 27.
  (../tmp//main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 27.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -1613,10 +1619,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21910 strings out of 495074
- 366635 string characters out of 3182083
- 603740 words of memory out of 3000000
- 24215 multiletter control sequences out of 15000+200000
+ 21907 strings out of 495074
+ 366613 string characters out of 3182083
+ 603718 words of memory out of 3000000
+ 24213 multiletter control sequences out of 15000+200000
  28056 words of font info for 73 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  65i,16n,74p,1272b,665s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1634,10 +1640,10 @@ hare/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></opt/local/sh
 are/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/local/sh
 are/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/local/sh
 are/texmf-texlive-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
-Output written on ../tmp//main.pdf (9 pages, 488689 bytes).
+Output written on ../tmp//main.pdf (9 pages, 488477 bytes).
 PDF statistics:
- 279 PDF objects out of 1000 (max. 8388607)
- 246 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
+ 276 PDF objects out of 1000 (max. 8388607)
+ 243 compressed objects within 3 object streams
+ 61 named destinations out of 1000 (max. 500000)
  195 words of extra memory for PDF output out of 10000 (max. 10000000)
 

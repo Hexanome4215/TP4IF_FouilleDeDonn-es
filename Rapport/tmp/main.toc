@@ -1,11 +1,11 @@
 \select@language {french}
 \contentsline {section}{\numberline {1}Description des donn\IeC {\'e}es}{1}{section.1}
-\contentsline {section}{\numberline {2}M\IeC {\'e}thode de travail}{1}{section.2}
+\contentsline {section}{\numberline {2}M\IeC {\'e}thode de travail}{2}{section.2}
 \contentsline {subsection}{\numberline {2.1}Filtrage des donn\IeC {\'e}es}{2}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}R\IeC {\'e}duction des dimensions}{2}{subsubsection.2.1.1}
 \contentsline {paragraph}{\relax Choix des colonnes}{2}{section*.2}
 \contentsline {paragraph}{\relax Correlation}{2}{section*.3}
-\contentsline {paragraph}{\relax PCA}{2}{section*.4}
+\contentsline {paragraph}{\relax PCA}{3}{section*.4}
 \contentsline {subsubsection}{\numberline {2.1.2}Valeurs manquantes}{3}{subsubsection.2.1.2}
 \contentsline {subsubsection}{\numberline {2.1.3}\textsl {Outliers}}{3}{subsubsection.2.1.3}
 \contentsline {paragraph}{\relax Recherche \FB@og \IeC {\`a} la main\FB@fg }{3}{section*.5}

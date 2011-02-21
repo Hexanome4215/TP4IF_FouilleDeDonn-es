@@ -17,19 +17,35 @@ Cependant, ce n'est pas toujours (et même rarement) le cas. Il existe cependant
 
 \paragraph{\eng{Clustering} hiérarchique}
 Encore une fois, l'utilisation du \eng{clustering} hiérarchique est recommandé pour prendre des décisions.
-\todo{SINGLE : Bras}
-\todo{COMPLETE et AVERAGE : Paquets, et mieux adapté à \eng{K-Means}}
-\todo{Distance : Utilisation des gaps plus que de la dérivé.}
+
+L'idée est que le nombre de cluster correspond au nombre de \eng{gaps} de la courbe de distance : \image{Distance}{0.7}
+Dans ce cas, il apparait que 3 \eng{clusters} serait un bon choix.
+
+Il faut cependant bien garder à l'esprit que le nombre de \eng{gaps} est fortement dépendant du type de fusion utilisé pour le \eng{clustering}. Knime propose 3 types de fusion :
+\begin{itemize}
+	\item \texttt{SINGLE}\footnote{Appelé aussi \texttt{Nearest Neighbour}, ou encore \texttt{Shortest Distance}} : Établit la distance entre deux \eng{clusters} comme étant la plus petite distance entres deux points des \eng{clusters}.
+	\item \texttt{AVERAGE} : Établit la distance entre deux \eng{clusters} comme étant la distance entre les centroids des clusters. 
+	\item \texttt{COMPLETE} : Établit la distance entre deux \eng{clusters} comme étant le plus grande distance entre deux points des \eng{clusters}.
+\end{itemize}
+
+Par conséquent, le choix entre ces différentes fonction de distance s'effectue en fonction de la distribution des données. En effet, en \texttt{SINGLE} ou \texttt{COMPLETE}, les extrémaux auront énormément d'influence sur le \eng{clustering}. En \texttt{AVERAGE} par contre, ils auront \apriori pas d'influence.
 
 \subsection{\eng{Clustering}}
+Une fois les données \og nettoyées\fg~et le nombre de \eng{clusters} déterminé, il est enfin temps de procéder au \eng{clustering} (\textsl{enfin !}).
+
+Nous pouvons dors et déjà distinguer deux types de \eng{clustering} :
+\begin{itemize}
+	\item Le \eng{clustering} hiérarchique :
+	\item Le \eng{clustering} partitionnel :
+\end{itemize}
 
 \subsubsection{\eng{Hierarchical Clustering}}
+\paragraph{Arbre de décision}
 
-\subsubsection{\eng{K-Mean}}
+\subsubsection{\eng{Clustering} partitionnel}
+\paragraph{\eng{K-Mean}}
 
-\subsubsection{\eng{Fuzzy C-Mean}}
+\paragraph {\eng{Fuzzy C-Mean}} 
 
-\subsubsection{Arbre de décision}
-
-\paragraph{Normalisation}
+\subsubsection{Normalisation}
 \todo{Elle est parfois inutile (dans le cas de valeur en pourcentages \eg}

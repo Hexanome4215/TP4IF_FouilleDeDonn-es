@@ -15,18 +15,19 @@
 \contentsline {subsection}{\numberline {2.2}\textsl {Clustering}}{7}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}D\IeC {\'e}termination du nombre de \textsl {clusters}}{7}{subsubsection.2.2.1}
 \contentsline {paragraph}{\relax \textsl {Clustering} hi\IeC {\'e}rarchique}{7}{section*.9}
-\contentsline {subsection}{\numberline {2.3}\textsl {Clustering}}{7}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}\textsl {Hierarchical Clustering}}{7}{subsubsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2}\textsl {K-Mean}}{7}{subsubsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.3}\textsl {Fuzzy C-Mean}}{7}{subsubsection.2.3.3}
-\contentsline {subsubsection}{\numberline {2.3.4}Arbre de d\IeC {\'e}cision}{7}{subsubsection.2.3.4}
-\contentsline {paragraph}{\relax Normalisation}{7}{section*.13}
-\contentsline {section}{\numberline {3}Secteurs d'activit\IeC {\'e} des diff\IeC {\'e}rents pays}{8}{section.3}
-\contentsline {subsection}{\numberline {3.1}S\IeC {\'e}lection des donn\IeC {\'e}es}{8}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}\textsl {Clustering}}{8}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}\textsl {Clustering} hi\IeC {\'e}rarchique}{8}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}\textsl {Clustering K-Means}}{8}{subsubsection.3.2.2}
-\contentsline {paragraph}{\relax V\IeC {\'e}rification de la stabilit\IeC {\'e} du \textsl {clustering}}{8}{section*.19}
-\contentsline {subsection}{\numberline {3.3}Interpr\IeC {\'e}tation}{8}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Arbre de d\IeC {\'e}cision}{8}{subsubsection.3.3.1}
-\contentsline {section}{\numberline {4}Cr\IeC {\'e}ation d'un module de v\IeC {\'e}rification du \textsl {K-Mean}}{9}{section.4}
+\contentsline {subsection}{\numberline {2.3}\textsl {Clustering}}{8}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}\textsl {Hierarchical Clustering}}{8}{subsubsection.2.3.1}
+\contentsline {paragraph}{\relax Arbre de d\IeC {\'e}cision}{8}{section*.10}
+\contentsline {subsubsection}{\numberline {2.3.2}\textsl {Clustering} partitionnel}{8}{subsubsection.2.3.2}
+\contentsline {paragraph}{\relax \textsl {K-Mean}}{8}{section*.11}
+\contentsline {paragraph}{\relax \textsl {Fuzzy C-Mean}}{8}{section*.12}
+\contentsline {subsubsection}{\numberline {2.3.3}Normalisation}{8}{subsubsection.2.3.3}
+\contentsline {section}{\numberline {3}Secteurs d'activit\IeC {\'e} des diff\IeC {\'e}rents pays}{9}{section.3}
+\contentsline {subsection}{\numberline {3.1}S\IeC {\'e}lection des donn\IeC {\'e}es}{9}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}\textsl {Clustering}}{9}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}\textsl {Clustering} hi\IeC {\'e}rarchique}{9}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}\textsl {Clustering K-Means}}{9}{subsubsection.3.2.2}
+\contentsline {paragraph}{\relax V\IeC {\'e}rification de la stabilit\IeC {\'e} du \textsl {clustering}}{9}{section*.18}
+\contentsline {subsection}{\numberline {3.3}Interpr\IeC {\'e}tation}{9}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Arbre de d\IeC {\'e}cision}{9}{subsubsection.3.3.1}
+\contentsline {section}{\numberline {4}Cr\IeC {\'e}ation d'un module de v\IeC {\'e}rification du \textsl {K-Mean}}{10}{section.4}

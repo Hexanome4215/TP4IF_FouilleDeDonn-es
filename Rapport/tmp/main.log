@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/MacPorts 2010_0) (format=pdflatex 2011.1.9)  21 FEB 2011 16:29
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/MacPorts 2010_0) (format=pdflatex 2011.1.9)  21 FEB 2011 23:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1441,7 +1441,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2] (./preprocessing.tex
-<../img/CorrelationMatrix.png, id=140, 373.395pt x 357.335pt>
+<../img/CorrelationMatrix.png, id=120, 373.395pt x 357.335pt>
 File: ../img/CorrelationMatrix.png Graphic file (type png)
 
 <use ../img/CorrelationMatrix.png>
@@ -1456,11 +1456,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Font Warning: Font shape `OT1/pag/bc/sl' undefined
 (Font)              using `OT1/pag/bc/n' instead on input line 39.
 
-<../img/ScatterPlot.png, id=158, 728.7225pt x 612.2875pt>
+<../img/ScatterPlot.png, id=138, 728.7225pt x 612.2875pt>
 File: ../img/ScatterPlot.png Graphic file (type png)
 
 <use ../img/ScatterPlot.png>
-<../img/ParallelCoordinates.png, id=159, 817.0525pt x 727.71875pt>
+<../img/ParallelCoordinates.png, id=139, 817.0525pt x 727.71875pt>
 File: ../img/ParallelCoordinates.png Graphic file (type png)
 
 <use ../img/ParallelCoordinates.png>
@@ -1474,11 +1474,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4] <../img/Dendrogram.png, id=171, 1284.8pt x 732.7375pt>
+[4] <../img/Dendrogram.png, id=150, 1284.8pt x 732.7375pt>
 File: ../img/Dendrogram.png Graphic file (type png)
 
 <use ../img/Dendrogram.png>
-<../img/BoxPlot.png, id=172, 1284.8pt x 732.7375pt>
+<../img/BoxPlot.png, id=151, 1284.8pt x 732.7375pt>
 File: ../img/BoxPlot.png Graphic file (type png)
  <use ../img/BoxPlot.png>
 
@@ -1496,32 +1496,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6 <../img/BoxPlot.png (PNG copy)>] (./clustering.tex
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 20.
-
-
-LaTeX Warning: Marginpar on page 7 moved.
-
-
-LaTeX Warning: Marginpar on page 7 moved.
-
-))
-
-LaTeX Warning: Marginpar on page 7 moved.
-
-(./type_pays.tex
+<../img/Distance.png, id=170, 1284.8pt x 732.7375pt>
+File: ../img/Distance.png Graphic file (type png)
+ <use ../img/Distance.png>
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7]
+[7 <../img/Distance.png (PNG copy)>]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 51.
+)) (./type_pays.tex
 
-LaTeX Warning: Marginpar on page 8 moved.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+
+LaTeX Warning: Marginpar on page 9 moved.
 
 
-LaTeX Warning: Marginpar on page 8 moved.
+LaTeX Warning: Marginpar on page 9 moved.
 
 ) (./new_module.tex
 
@@ -1530,14 +1529,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8])
+[9])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9] (../tmp//main.gls
+[10] (../tmp//main.gls
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -1562,14 +1561,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-) AED: lastpage setting LastPage
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10]
+[11] <../img/knime.jpg, id=230, 181.67876pt x 72.27pt>
+File: ../img/knime.jpg Graphic file (type jpg)
+ <use ../img/knime.jpg>
+AED: lastpage setting LastPage
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <../img/knime.jpg>]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
@@ -1586,8 +1595,8 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
-<../img/INSA.jpg, id=238, 530.73282pt x 285.31593pt>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
+<../img/INSA.jpg, id=235, 530.73282pt x 285.31593pt>
 File: ../img/INSA.jpg Graphic file (type jpg)
  <use ../img/INSA.jpg>
 
@@ -1596,12 +1605,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11
+[13
 
  <../img/INSA.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
  (../tmp//main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -1614,11 +1623,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21937 strings out of 495074
- 366953 string characters out of 3182083
- 603982 words of memory out of 3000000
- 24235 multiletter control sequences out of 15000+200000
- 28707 words of font info for 75 fonts, out of 3000000 for 9000
+ 21933 strings out of 495074
+ 366685 string characters out of 3182083
+ 600659 words of memory out of 3000000
+ 24227 multiletter control sequences out of 15000+200000
+ 28874 words of font info for 76 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  65i,16n,74p,1272b,665s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/opt/local/share/texmf-texlive-dist/fonts/enc/dvips/base/8r.enc}</opt/local/
@@ -1637,11 +1646,12 @@ texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/local/share/
 texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></opt/local/share/t
 exmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/local/share/t
 exmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/local/share/t
-exmf-texlive-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
-Output written on ../tmp//main.pdf (11 pages, 518599 bytes).
+exmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></opt/local/share/te
+xmf-texlive-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
+Output written on ../tmp//main.pdf (13 pages, 563001 bytes).
 PDF statistics:
- 314 PDF objects out of 1000 (max. 8388607)
- 276 compressed objects within 3 object streams
- 67 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 315 PDF objects out of 1000 (max. 8388607)
+ 272 compressed objects within 3 object streams
+ 68 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

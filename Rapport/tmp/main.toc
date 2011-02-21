@@ -1,0 +1,26 @@
+\select@language {french}
+\contentsline {section}{\numberline {1}Description des donn\IeC {\'e}es}{1}{section.1}
+\contentsline {section}{\numberline {2}M\IeC {\'e}thode de travail}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}Filtrage des donn\IeC {\'e}es}{1}{subsection.2.1}
+\contentsline {paragraph}{\relax Normalisation}{1}{section*.2}
+\contentsline {paragraph}{\relax Valeurs manquantes}{1}{section*.4}
+\contentsline {paragraph}{\relax \textsl {Outliers}}{1}{section*.5}
+\contentsline {paragraph}{\relax Correlation}{2}{section*.9}
+\contentsline {subsection}{\numberline {2.2}R\IeC {\'e}duction des dimensions}{2}{subsection.2.2}
+\contentsline {paragraph}{\relax Choix des colonnes}{2}{section*.10}
+\contentsline {paragraph}{\relax PCA}{2}{section*.11}
+\contentsline {subsection}{\numberline {2.3}D\IeC {\'e}termination du nombre de \textsl {clusters}}{2}{subsection.2.3}
+\contentsline {paragraph}{\relax \textsl {Clustering} hi\IeC {\'e}rarchique}{2}{section*.13}
+\contentsline {subsection}{\numberline {2.4}\textsl {Clustering}}{2}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}\textsl {Hierarchical Clustering}}{2}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}\textsl {K-Mean}}{2}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}\textsl {Fuzzy C-Mean}}{2}{subsubsection.2.4.3}
+\contentsline {section}{\numberline {3}Secteurs d'activit\IeC {\'e} des diff\IeC {\'e}rents pays}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}S\IeC {\'e}lection des donn\IeC {\'e}es}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}\textsl {Clustering}}{3}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}\textsl {Clustering} hi\IeC {\'e}rarchique}{3}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}\textsl {Clustering K-Means}}{3}{subsubsection.3.2.2}
+\contentsline {paragraph}{\relax V\IeC {\'e}rification de la stabilit\IeC {\'e} du \textsl {clustering}}{3}{section*.22}
+\contentsline {subsection}{\numberline {3.3}Interpr\IeC {\'e}tation}{3}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Arbre de d\IeC {\'e}cision}{3}{subsubsection.3.3.1}
+\contentsline {section}{\numberline {4}Cr\IeC {\'e}ation d'un module de v\IeC {\'e}rification du \textsl {K-Mean}}{4}{section.4}

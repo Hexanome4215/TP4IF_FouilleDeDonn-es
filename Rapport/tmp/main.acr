@@ -1,0 +1,13 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{P}\relax \glsresetentrylist %
+\glossaryentryfield{PIB}{\glsnamefont{PIB}}{Produit Intérieur Brute}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{1}\delimN 
+		\setentrycounter{page}\glsnumberformat{3}}}\glsgroupskip
+\glsgroupheading{R}\relax \glsresetentrylist %
+\glossaryentryfield{RNB}{\glsnamefont{RNB}}{À décrire}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{3}}}\glsgroupskip
+\glsgroupheading{V}\relax \glsresetentrylist %
+\glossaryentryfield{VIH}{\glsnamefont{VIH}}{Virus d'immunodéficience Humaine}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{1}}}%
+\end{theglossary}\glossarypostamble

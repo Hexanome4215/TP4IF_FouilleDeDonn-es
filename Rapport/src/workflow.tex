@@ -1,20 +1,55 @@
 \section{Méthode de travail}
+Cette partie va tenter de décrire très précisément la démarche de travail que nous avons établi au début de ce TP, notamment pendant les deux séances préparatoires. En plus de vous indiquer quelles sont les étapes que nous avons suivi pour arriver à nos résultats, elles constituerons une bases de travail solide que nous pourrons améliorer tout au long des deux séances de \eng{datamining}.
+
 \subsection{Filtrage des données}
-\paragraph{Normalisation}
-\todo{Elle est parfois inutile (dans le cas de valeur en pourcentages \eg}
-\paragraph{Valeurs manquantes}
-\paragraph{\eng{Outliers}}
+Contrairement à ce que nous avions cru avant de commencer, il faut très souvent élaguer son \eng{dataset} afin de donner plus de sens aux valeurs.
+
+\subsubsection{Réduction des dimensions}
+Une des problématique majeure du \eng{datamining} s'appelle la \emph{malédiction de la dimensionalité}. Cette \og malédiction\fg~ provient du fait que plus le nombre de dimensions du jeux de donnée (\ie le nombre de colonnes) croit, moins la notions de distance n'a de sens. En effet, les distances ont tendance à se réduire proportionnelement avec le nombre de dimensions. Or, les algorithmes de \eng{clustering} utilisent cette distance comme critère principal de choix à l'appartenance à tel ou tel \eng{cluster}.
+
+Voyons alors comment nous pouvons, dans le cadre d'un jeu de donnée contenant beaucoup de colonne, palier à ce défi technique.
+\paragraph{Choix des colonnes}
+Dans un premier temps, il est fondamental de sélectionner les colonnes qui nous intéressent. Dans le cadre d'une étude de \eng{datamining} réalisée par des professionnels, l'expérience dans le domaine analysé joue beaucoup et permettra de faire un choix cohérent et judicieux des dimensions à conserver. Cependant, il est fréquent que les données ne soient pas dans le domaine d'expérience du chercheur ou pire, très abstraites. Dans ce cas, il faut faire appel à d'autre technique.
+
+\paragraph{Correlation}
+Il peut être par exemple très intéressant d'utiliser une matrice de correlation afin de mettre en valeurs les colonnes qui pourraient nous êtres utiles, et surtout celles qui nous sont inutiles.
+\wrappedimage[Un exemple de matrice de correlation]{CorrelationMatrix}{0.5}{r}
+
+La lecture de cette matrice (figure \ref{fig1}) est très simple. Plus les couleurs (rouge ou bleu) sont foncée, plus la corrélation, \ie la facilité à déduire une colonne à partir d'une autre, entre les colonnes est forte. Il est évident que les diagonales soit de la couleurs la plus foncée possible car une colonne est toujours corrélée avec elle même.
+
+Dans cet exemple, il est facile de déduire de la matrice que le sexe et le mois de mesure n'ont finalement pas beaucoup d'impact sur les autres paramètres. Nous pouvons les ignorer dans notre \eng{clustering}.
+
+\paragraph{PCA}
+La \gls{PCA} est une méthode de réduction automatique des dimension. Elle a l'avantage de préserver \textsl{mathématiquement} le plus d'information possible. Pour cela, elle essaie de chercher la meilleur combinaison linaire des différents colonnes afin d'atteindre, au choix \emph{un nombre fixé de dimension} ou \emph{une conservation de X\% de l'information}.
+Bien que pratique, elle est (tout du moins à notre niveau d'expertise en \eng{datamining}) relativement dangereuse car les combinaisons linéaires qui résulte d'une \gls{PCA} n'ont plus vraiment de sens. Aussi, il est assez compliqué d'obtenir la formule de sortie afin de l'interpréter.
+
+\subsubsection{Valeurs manquantes}
+Certains \eng{dataset} contiennent des lignes n'exhibant pas toutes les colonnes. Ce problème anodin peut pourtant poser des problème et il faut adopter un des stratégie suivante :
+\begin{itemize}
+	\item Supprimer l'ensemble des lignes ou au moins une valeur manque : C'est la solution la plus propre mais le jeu de donnée risque de se réduire drastiquement.
+	\item Remplacer la valeur manquante : Soit par une moyenne des autres valeurs, soit par une valeur \og label\fg~ (\eg \texttt{missing}), soit même par une valeur aléatoire.
+\end{itemize}
+La meilleur solution reste toute de même de bien sélectionner ses colonnes, et de supprimer les lignes contenant une valeur manquante.
+
+\subsubsection{\eng{Outliers}}
+Un \eng{outlier} est une valeur atypique du jeu de donnée risquant de biaiser l'analyse que nous pourrions en faire. Cependant, elles peuvent aussi aider à traiter un problème dans un cas plus général. C'est pourquoi leur élimination (ou conversation) est problématique et fait appel aussi bien au bon sens, qu'a la compréhension des données ainsi qu'à l'expérience.
+
+\paragraph{Recherche \og à la main\fg}
+La première méthode de recherche a l'avantage d'être simple. Elle consiste simplement à effectuer une recherche visuelle des \eng{outliers} via un \eng{scatter plot} pour les jeux de données de dimension inférieur à 2 et via un \eng{parallel coordinates}. L'humain étant très fort pour détecter les valeurs extrêmes, pour peu que l'opérateur a compris les données qu'il maniait et qu'il sait lire correctement un graphique, les \eng{outliers} devraient être assez simple à exclure. Il pourra d'ailleurs utiliser les fonction d'\eng{HiLighting} proposées par le logiciel.
+
+\begin{multicols}{2}
+	\image[Un exemple de diagramme \og Scatter plot\fg]{ScatterPlot}{0.4} \columnbreak
+	\image[Un exemple de diagramme \og ParallelCoordinates\fg]{ParallelCoordinates}{0.4}
+\end{multicols}
+
 \todo{Il faut les chercher en 1D, 2D, et plus (parallel coordinates}
 \todo{Utilisation du clustering hiérarchique pour les identifier : Repérer les derniers collé}
 \todo{Utilisation des box plots}
-\paragraph{Correlation}
-
-\subsection{Réduction des dimensions}
-\paragraph{Choix des colonnes}
-\paragraph{PCA}
+\todo{Aborder les méthodes statistique basée sur la loi normale}
 
 \subsection{Détermination du nombre de \eng{clusters}}
 \todo{Intro ou le nombre est connu}
+
 \paragraph{\eng{Clustering} hiérarchique}
 \todo{SINGLE : Bras}
 \todo{COMPLETE et AVERAGE : Paquets, et mieux adapté à \eng{K-Means}}
@@ -22,6 +57,12 @@
 
 \subsection{\eng{Clustering}}
 \todo{Faire la liste et les spécificité des différentes méthodes de \eng{clustering}}
+
+\paragraph{Normalisation}
+\todo{Elle est parfois inutile (dans le cas de valeur en pourcentages \eg}
+
 \subsubsection{\eng{Hierarchical Clustering}}
+
 \subsubsection{\eng{K-Mean}}
+
 \subsubsection{\eng{Fuzzy C-Mean}}

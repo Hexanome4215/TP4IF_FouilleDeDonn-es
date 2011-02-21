@@ -1,0 +1,55 @@
+\subsection{Filtrage des données}
+Contrairement à ce que nous avions cru avant de commencer, il faut très souvent élaguer son \eng{dataset} afin de donner plus de sens aux valeurs.
+
+\subsubsection{Réduction des dimensions}
+Une des problématique majeure du \eng{datamining} s'appelle la \emph{malédiction de la dimensionalité}. Cette \og malédiction\fg~ provient du fait que plus le nombre de dimensions du jeux de donnée (\ie le nombre de colonnes) croit, moins la notions de distance n'a de sens. En effet, les distances ont tendance à se réduire proportionnelement avec le nombre de dimensions. Or, les algorithmes de \eng{clustering} utilisent cette distance comme critère principal de choix à l'appartenance à tel ou tel \eng{cluster}.
+
+Voyons alors comment nous pouvons, dans le cadre d'un jeu de donnée contenant beaucoup de colonne, palier à ce défi technique.
+\paragraph{Choix des colonnes}
+Dans un premier temps, il est fondamental de sélectionner les colonnes qui nous intéressent. Dans le cadre d'une étude de \eng{datamining} réalisée par des professionnels, l'expérience dans le domaine analysé joue beaucoup et permettra de faire un choix cohérent et judicieux des dimensions à conserver. Cependant, il est fréquent que les données ne soient pas dans le domaine d'expérience du chercheur ou pire, très abstraites. Dans ce cas, il faut faire appel à d'autre technique.
+
+\paragraph{Correlation}
+Il peut être par exemple très intéressant d'utiliser une matrice de correlation afin de mettre en valeurs les colonnes qui pourraient nous êtres utiles, et surtout celles qui nous sont inutiles.
+\wrappedimage[Un exemple de matrice de correlation]{CorrelationMatrix}{0.5}{r}
+
+La lecture de cette matrice (figure \ref{fig1}) est très simple. Plus les couleurs (rouge ou bleu) sont foncée, plus la corrélation, \ie la facilité à déduire une colonne à partir d'une autre, entre les colonnes est forte. Il est évident que les diagonales soit de la couleurs la plus foncée possible car une colonne est toujours corrélée avec elle même.
+
+Dans cet exemple, il est facile de déduire de la matrice que le sexe et le mois de mesure n'ont finalement pas beaucoup d'impact sur les autres paramètres. Nous pouvons les ignorer dans notre \eng{clustering}.
+
+\paragraph{PCA}
+La \gls{PCA} est une méthode de réduction automatique des dimension. Elle a l'avantage de préserver \textsl{mathématiquement} le plus d'information possible. Pour cela, elle essaie de chercher la meilleur combinaison linaire des différents colonnes afin d'atteindre, au choix \emph{un nombre fixé de dimension} ou \emph{une conservation de X\% de l'information}.
+Bien que pratique, elle est (tout du moins à notre niveau d'expertise en \eng{datamining}) relativement dangereuse car les combinaisons linéaires qui résulte d'une \gls{PCA} n'ont plus vraiment de sens. Aussi, il est assez compliqué d'obtenir la formule de sortie afin de l'interpréter.
+
+\subsubsection{Valeurs manquantes}
+Certains \eng{dataset} contiennent des lignes n'exhibant pas toutes les colonnes. Ce problème anodin peut pourtant poser des problèmes et il faut adopter une des stratégies suivantes :
+\begin{itemize}
+	\item Supprimer l'ensemble des lignes ou au moins une valeur manque : C'est la solution la plus propre mais le jeu de donnée risque de se réduire drastiquement.
+	\item Remplacer la valeur manquante : Soit par une moyenne des autres valeurs, soit par une valeur \og label\fg~ (\eg \texttt{missing}), soit même par une valeur aléatoire.
+\end{itemize}
+La meilleur solution reste toute de même de bien sélectionner ses colonnes, et de supprimer les lignes contenant une valeur manquante.
+
+\subsubsection{\eng{Outliers}}
+Un \eng{outlier} est une valeur atypique du jeu de donnée risquant de biaiser l'analyse que nous pourrions en faire. Cependant, elles peuvent aussi aider à traiter un problème dans un cas plus général. C'est pourquoi leur élimination (ou conversation) est problématique et fait appel aussi bien au bon sens, qu'a la compréhension des données ainsi qu'à l'expérience.
+
+\paragraph{Recherche \og à la main\fg}
+La première méthode de recherche a l'avantage d'être simple. Elle consiste simplement à effectuer une recherche visuelle des \eng{outliers} via un \eng{scatter plot} pour les jeux de données de dimension inférieur à 2 et via un \eng{parallel coordinates}. L'humain étant très fort pour détecter les valeurs extrêmes, pour peu que l'opérateur a compris les données qu'il maniait et qu'il sait lire correctement un graphique, les \eng{outliers} devraient être assez simple à exclure. Il pourra d'ailleurs utiliser les fonction d'\eng{HiLighting} proposées par le logiciel.
+
+\begin{multicols}{2}
+	\image[Un exemple de diagramme \og Scatter plot\fg]{ScatterPlot}{0.4} \columnbreak
+	\image[Un exemple de diagramme \og ParallelCoordinates\fg]{ParallelCoordinates}{0.4}
+\end{multicols}
+
+\paragraph{\eng{Clustering} hiérarchique}
+Une des méthodes efficace et qui me semble un peu plus rigoureuse consiste à utiliser un \eng{clustering} hiérarchique afin de déterminer les \eng{outliers}.
+
+La méthode est très simple. En effet, il suffit de regarder quel point ou petit groupe de point s'est \og collé\fg~ en dernier. Sur la figure \ref{fig4}, il est évident que le point le plus a gauche est un \eng{outlier}. En effet, il s'est collé en dernier, et ce, à une distance presque égale au rayon du cluster contenant tous les autres points.
+\image[Exemple de dendogramme extrait d'un \eng{clustering} hiérarchique]{Dendrogram}{1}
+
+\paragraph{\eng{Box plot}}
+C'est encore un moyen très rapide de démasquer les outliers car ils font figurer sur les même diagramme, la médian, les quartiles et les décile. Nous avons donc toutes les données statistiques nécessaire afin d'évaluer l'appartenance d'une point à notre futur jeu de données.
+\image[Exemple de boîte à moustache]{BoxPlot}{1}
+
+\paragraph{Méthodes statistiques}
+Une des dernières méthodes (que nous n'utilisons pas sur Knime) est une approche statistique des données. Il est prouvé que de nombreux phénomènes suivent une loi normale. De plus, nous connaissons très bien cette loi et des mathématiciens ont pu modéliser l'atypique afin de fournir des méthode automatique d'exclusion des \eng{outliers}. Nous ne rentrerons pas plus dans le détail mais parmi ces méthodes, nous pouvons citer le critère de \textsc{Peirce}, de \textsc{Chauvenet} ou encore le test de \textsc{Grubb}.
+
+

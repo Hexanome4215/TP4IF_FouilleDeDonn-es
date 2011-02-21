@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/MacPorts 2010_0) (format=pdflatex 2011.1.9)  21 FEB 2011 13:11
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/MacPorts 2010_0) (format=pdflatex 2011.1.9)  21 FEB 2011 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1251,28 +1251,28 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 (../tmp//main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Info: Redefining \degres on input line 10.
-LaTeX Info: Redefining \dots on input line 10.
-LaTeX Info: Redefining \up on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Info: Redefining \degres on input line 25.
+LaTeX Info: Redefining \dots on input line 25.
+LaTeX Info: Redefining \up on input line 25.
 
 
 Package frenchb.ldf Warning: OT1 encoding should not be used for French. 
 (frenchb.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(frenchb.ldf)                of your document, on input line 10.
+(frenchb.ldf)                of your document, on input line 25.
 
 (/opt/local/share/texmf-texlive-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1360,7 +1360,7 @@ Package minitoc(hints) Warning: W0023
 
 \c@lstlisting=\count205
 \AtBeginShipoutBox=\box80
-Package hyperref Info: Link coloring ON on input line 10.
+Package hyperref Info: Link coloring ON on input line 25.
 (/opt/local/share/texmf-texlive-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -1372,9 +1372,9 @@ Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
 )
 \c@section@level=\count206
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
 
 (../tmp//main.out) (../tmp//main.out)
 \@outlinefile=\write10
@@ -1385,43 +1385,43 @@ LaTeX Info: Redefining \nameref on input line 10.
 onary-English.dict
 Dictionary: glossaries-dictionary, Language: English 
 ) ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for OT1+pag on input line 11.
+LaTeX Font Info:    Try loading font information for OT1+pag on input line 26.
 
 (/opt/local/share/texmf-texlive-dist/tex/latex/psnfss/ot1pag.fd
 File: ot1pag.fd 2001/06/04 font definitions for OT1/pag.
 )
 
 LaTeX Font Warning: Font shape `OT1/pag/bc/n' undefined
-(Font)              using `OT1/pag/m/n' instead on input line 11.
+(Font)              using `OT1/pag/m/n' instead on input line 26.
 
-LaTeX Font Info:    Calculating math sizes for size <25> on input line 11.
+LaTeX Font Info:    Calculating math sizes for size <25> on input line 26.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 11.
+(Font)              size <12> substituted on input line 26.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <12.5> not available
-(Font)              size <12> substituted on input line 11.
+(Font)              size <12> substituted on input line 26.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 11.
+(Font)              size <12> substituted on input line 26.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+LaTeX Font Info:    Try loading font information for U+msa on input line 26.
 (/opt/local/share/texmf-texlive-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+LaTeX Font Info:    Try loading font information for U+msb on input line 26.
 
 (/opt/local/share/texmf-texlive-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
 
  []
 
@@ -1435,23 +1435,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--11
 
 {/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./workflow.tex (
 ./preprocessing.tex
-<../img/CorrelationMatrix.png, id=124, 373.395pt x 357.335pt>
+<../img/CorrelationMatrix.png, id=125, 373.395pt x 357.335pt>
 File: ../img/CorrelationMatrix.png Graphic file (type png)
 
 <use ../img/CorrelationMatrix.png>
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-\OT1/cmr/m/n/10.95 sont inu-tiles.
- []
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-Underfull \hbox (badness 1215) in paragraph at lines 17--18
-[]\OT1/cmr/m/n/10.95 Dans cet ex-em-ple, il est facile de
- []
+[2]
 
-
-Underfull \hbox (badness 8170) in paragraph at lines 20--22
-[]\OT1/cmr/m/n/10.95 La [][][]Pri-mary Com-po-nent Anal-y-sis
- []
+LaTeX Font Warning: Font shape `OT1/pag/bc/sl' undefined
+(Font)              using `OT1/pag/bc/n' instead on input line 39.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1459,65 +1456,52 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2 <../img/CorrelationMatrix.png (PNG copy)>]
-Overfull \hbox (5.90651pt too wide) in paragraph at lines 24--25
-[]\OT1/cmr/m/n/10.95 Certains \OT1/cmr/m/sl/10.95 dataset \OT1/cmr/m/n/10.95 co
-n-ti-en-nent des lignes n'ex-hibant pas toutes les colonnes. Ce probl^^Reme
- []
-
-
-LaTeX Font Warning: Font shape `OT1/pag/bc/sl' undefined
-(Font)              using `OT1/pag/bc/n' instead on input line 31.
-
-<../img/ScatterPlot.png, id=136, 728.7225pt x 612.2875pt>
+[3 <../img/CorrelationMatrix.png (PNG copy)>]
+<../img/ScatterPlot.png, id=151, 728.7225pt x 612.2875pt>
 File: ../img/ScatterPlot.png Graphic file (type png)
 
 <use ../img/ScatterPlot.png>
-<../img/ParallelCoordinates.png, id=137, 817.0525pt x 727.71875pt>
+<../img/ParallelCoordinates.png, id=152, 817.0525pt x 727.71875pt>
 File: ../img/ParallelCoordinates.png Graphic file (type png)
 
 <use ../img/ParallelCoordinates.png>
-Overfull \vbox (2.33217pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (8.64706pt too high) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3 <../img/ScatterPlot.png (PNG copy)> <../img/ParallelCoordinates.png (PNG cop
-y)>] <../img/Dendrogram.png, id=150, 1284.8pt x 732.7375pt>
+<../img/Dendrogram.png, id=154, 1284.8pt x 732.7375pt>
 File: ../img/Dendrogram.png Graphic file (type png)
 
 <use ../img/Dendrogram.png>
-<../img/BoxPlot.png, id=151, 1284.8pt x 732.7375pt>
-File: ../img/BoxPlot.png Graphic file (type png)
- <use ../img/BoxPlot.png>
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4 <../img/Dendrogram.png (PNG copy)>]) (./clustering.tex
+[4 <../img/ScatterPlot.png (PNG copy)> <../img/ParallelCoordinates.png (PNG cop
+y)>] <../img/BoxPlot.png, id=165, 1284.8pt x 732.7375pt>
+File: ../img/BoxPlot.png Graphic file (type png)
+
+<use ../img/BoxPlot.png>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <../img/Dendrogram.png (PNG copy)> <../img/BoxPlot.png (PNG copy)>])
+(./clustering.tex
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 2.
 
 
-LaTeX Warning: Marginpar on page 5 moved.
+LaTeX Warning: Marginpar on page 6 moved.
 
 
-LaTeX Warning: Marginpar on page 5 moved.
+LaTeX Warning: Marginpar on page 6 moved.
 
 
-LaTeX Warning: Marginpar on page 5 moved.
+LaTeX Warning: Marginpar on page 6 moved.
 
 
-LaTeX Warning: Marginpar on page 5 moved.
+LaTeX Warning: Marginpar on page 6 moved.
 
 )) (./type_pays.tex
 
@@ -1526,12 +1510,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5 <../img/BoxPlot.png (PNG copy)>]
+[6]
 
-LaTeX Warning: Marginpar on page 6 moved.
+LaTeX Warning: Marginpar on page 7 moved.
 
 
-LaTeX Warning: Marginpar on page 6 moved.
+LaTeX Warning: Marginpar on page 7 moved.
 
 ) (./new_module.tex
 
@@ -1540,14 +1524,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6])
+[7])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7] (../tmp//main.gls) (../tmp//main.acr
+[8] (../tmp//main.gls
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+) (../tmp//main.acr
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
@@ -1574,7 +1563,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]
+[9]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
@@ -1591,8 +1580,8 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 27.
-<../img/INSA.jpg, id=210, 530.73282pt x 285.31593pt>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
+<../img/INSA.jpg, id=225, 530.73282pt x 285.31593pt>
 File: ../img/INSA.jpg Graphic file (type jpg)
  <use ../img/INSA.jpg>
 
@@ -1601,12 +1590,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9
+[10
 
  <../img/INSA.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 27.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
  (../tmp//main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 27.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -1619,11 +1608,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21907 strings out of 495074
- 366613 string characters out of 3182083
- 603718 words of memory out of 3000000
- 24213 multiletter control sequences out of 15000+200000
- 28056 words of font info for 73 fonts, out of 3000000 for 9000
+ 21943 strings out of 495074
+ 367160 string characters out of 3182083
+ 604137 words of memory out of 3000000
+ 24242 multiletter control sequences out of 15000+200000
+ 28707 words of font info for 75 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  65i,16n,74p,1272b,665s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/opt/local/share/texmf-texlive-dist/fonts/enc/dvips/base/8r.enc}</opt/local/
@@ -1633,17 +1622,20 @@ share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></opt/loca
 l/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></opt/loc
 al/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/loca
 l/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></opt/local/
-share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></opt/local/
-share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb></opt/local/s
-hare/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/local/s
-hare/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></opt/local/sh
-are/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/local/sh
-are/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/local/sh
-are/texmf-texlive-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
-Output written on ../tmp//main.pdf (9 pages, 488477 bytes).
+share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/local/sh
+are/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></opt/local/shar
+e/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></opt/local/shar
+e/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb></opt/local/share
+/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmsl9.pfb></opt/local/share/
+texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/local/share/
+texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></opt/local/share/t
+exmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/local/share/t
+exmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/local/share/t
+exmf-texlive-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
+Output written on ../tmp//main.pdf (10 pages, 518526 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 243 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
+ 300 PDF objects out of 1000 (max. 8388607)
+ 263 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
  195 words of extra memory for PDF output out of 10000 (max. 10000000)
 

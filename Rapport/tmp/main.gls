@@ -1,1 +1,6 @@
-\null
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{D}\relax \glsresetentrylist %
+\glossaryentryfield{dataset}{\glsnamefont{dataset}}{Jeu de donnée}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{3}}}%
+\end{theglossary}\glossarypostamble

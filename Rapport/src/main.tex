@@ -7,6 +7,21 @@
 % \nHeader[LOGO_PATH]{...}{...}{...}{...}
 \nHeader[INSA]{Fouille de données}{Travaux pratiques}{\eng{Datamining}}{Gaëtan \textsc{Bloch} \& Maxime \textsc{Gaudin}}
 
+
+\renewcommand{\citation}[2][null]
+{
+	\begin{center}%
+		\colorbox{lightgray}{%
+			\begin{minipage}{0.7\textwidth}%
+				\centering\sl%
+				#2%
+				\ifthenelse{\equal{#1}{null}}{}
+				{~\\\begin{flushright}#1\end{flushright}}
+			\end{minipage}%
+		}%
+	\end{center}%
+}
+
 \begin{document}
 \maketitle
 \tableofcontents

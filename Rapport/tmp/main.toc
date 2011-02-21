@@ -1,10 +1,10 @@
 \select@language {french}
 \contentsline {section}{\numberline {1}Description des donn\IeC {\'e}es}{1}{section.1}
-\contentsline {section}{\numberline {2}M\IeC {\'e}thode de travail}{1}{section.2}
-\contentsline {subsection}{\numberline {2.1}Filtrage des donn\IeC {\'e}es}{1}{subsection.2.1}
-\contentsline {paragraph}{\relax Normalisation}{1}{section*.2}
-\contentsline {paragraph}{\relax Valeurs manquantes}{1}{section*.4}
-\contentsline {paragraph}{\relax \textsl {Outliers}}{1}{section*.5}
+\contentsline {section}{\numberline {2}M\IeC {\'e}thode de travail}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Filtrage des donn\IeC {\'e}es}{2}{subsection.2.1}
+\contentsline {paragraph}{\relax Normalisation}{2}{section*.2}
+\contentsline {paragraph}{\relax Valeurs manquantes}{2}{section*.4}
+\contentsline {paragraph}{\relax \textsl {Outliers}}{2}{section*.5}
 \contentsline {paragraph}{\relax Correlation}{2}{section*.9}
 \contentsline {subsection}{\numberline {2.2}R\IeC {\'e}duction des dimensions}{2}{subsection.2.2}
 \contentsline {paragraph}{\relax Choix des colonnes}{2}{section*.10}

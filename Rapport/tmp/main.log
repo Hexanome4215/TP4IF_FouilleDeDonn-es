@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/MacPorts 2010_0) (format=pdflatex 2011.1.9)  21 FEB 2011 10:57
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/MacPorts 2010_0) (format=pdflatex 2011.1.9)  21 FEB 2011 11:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1432,25 +1432,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--11
  (./description_donnees.tex) (./workflow.tex
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 4.
+ [1
+
+\openout6 = `main.ist'.
+
+{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Marginpar on page 2 moved.
 
 
-LaTeX Warning: Marginpar on page 1 moved.
+LaTeX Warning: Marginpar on page 2 moved.
 
 
-LaTeX Warning: Marginpar on page 1 moved.
+LaTeX Warning: Marginpar on page 2 moved.
 
 
-LaTeX Warning: Marginpar on page 1 moved.
+LaTeX Warning: Marginpar on page 2 moved.
 
 
 LaTeX Font Warning: Font shape `OT1/pag/bc/sl' undefined
 (Font)              using `OT1/pag/bc/n' instead on input line 16.
 
-[1
 
-\openout6 = `main.ist'.
+LaTeX Warning: Marginpar on page 2 moved.
 
-{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Marginpar on page 2 moved.
+
 
 LaTeX Warning: Marginpar on page 2 moved.
 
@@ -1555,10 +1563,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21847 strings out of 495074
- 365731 string characters out of 3182083
- 603353 words of memory out of 3000000
- 24174 multiletter control sequences out of 15000+200000
+ 21848 strings out of 495074
+ 365739 string characters out of 3182083
+ 608357 words of memory out of 3000000
+ 24175 multiletter control sequences out of 15000+200000
  27710 words of font info for 72 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  65i,16n,74p,1272b,665s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1574,7 +1582,7 @@ share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb></opt/local/s
 hare/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/local/s
 hare/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/local/s
 hare/texmf-texlive-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
-Output written on ../tmp//main.pdf (6 pages, 174129 bytes).
+Output written on ../tmp//main.pdf (6 pages, 174823 bytes).
 PDF statistics:
  225 PDF objects out of 1000 (max. 8388607)
  202 compressed objects within 3 object streams

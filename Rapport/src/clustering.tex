@@ -1,19 +1,35 @@
-\subsection{Détermination du nombre de \eng{clusters}}
-\todo{Intro ou le nombre est connu}
+\subsection{\eng{Clustering}}
+Une fois la phase de sélection des données, il reste évidemment a effectuer le \eng{clustering}. Cette étape consiste à classifier les données en paquet afin de pouvoir en extraire des relations entre eux.
+
+Cette étape se réalise grâce à de nombreux algorithmes. Profitons de cette partie pour étudier les spécificité de 3 grands algorithmes : 
+\begin{itemize}
+	\item Le \eng{clustering} hiérarchique
+	\item La méthode \eng{K-Mean}
+	\item La méthode \eng{Fuzzy C-Mean}
+\end{itemize}
+
+\subsubsection{Détermination du nombre de \eng{clusters}}
+Le nombre de \eng{clusters} n'est pas laissé libre aux différents algorithmes et il faut prendre une décision cohérente.
+
+Parfois, ce nombre est fixé : \eg lorsque le client commande une classification en 3 groupes \og maigre\fg, \og normal\fg, \og obèse\fg.
+
+Cependant, ce n'est pas toujours (et même rarement) le cas. Il existe cependant une méthode pour déterminer de manière formelle un nombre de cluster adapté au jeu de données.
 
 \paragraph{\eng{Clustering} hiérarchique}
+Encore une fois, l'utilisation du \eng{clustering} hiérarchique est recommandé pour prendre des décisions.
 \todo{SINGLE : Bras}
 \todo{COMPLETE et AVERAGE : Paquets, et mieux adapté à \eng{K-Means}}
 \todo{Distance : Utilisation des gaps plus que de la dérivé.}
 
 \subsection{\eng{Clustering}}
-\todo{Faire la liste et les spécificité des différentes méthodes de \eng{clustering}}
-
-\paragraph{Normalisation}
-\todo{Elle est parfois inutile (dans le cas de valeur en pourcentages \eg}
 
 \subsubsection{\eng{Hierarchical Clustering}}
 
 \subsubsection{\eng{K-Mean}}
 
 \subsubsection{\eng{Fuzzy C-Mean}}
+
+\subsubsection{Arbre de décision}
+
+\paragraph{Normalisation}
+\todo{Elle est parfois inutile (dans le cas de valeur en pourcentages \eg}

@@ -1441,7 +1441,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2] (./preprocessing.tex
-<../img/CorrelationMatrix.png, id=120, 373.395pt x 357.335pt>
+<../img/CorrelationMatrix.png, id=135, 373.395pt x 357.335pt>
 File: ../img/CorrelationMatrix.png Graphic file (type png)
 
 <use ../img/CorrelationMatrix.png>
@@ -1456,11 +1456,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Font Warning: Font shape `OT1/pag/bc/sl' undefined
 (Font)              using `OT1/pag/bc/n' instead on input line 39.
 
-<../img/ScatterPlot.png, id=138, 728.7225pt x 612.2875pt>
+<../img/ScatterPlot.png, id=153, 728.7225pt x 612.2875pt>
 File: ../img/ScatterPlot.png Graphic file (type png)
 
 <use ../img/ScatterPlot.png>
-<../img/ParallelCoordinates.png, id=139, 817.0525pt x 727.71875pt>
+<../img/ParallelCoordinates.png, id=154, 817.0525pt x 727.71875pt>
 File: ../img/ParallelCoordinates.png Graphic file (type png)
 
 <use ../img/ParallelCoordinates.png>
@@ -1474,11 +1474,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4] <../img/Dendrogram.png, id=150, 1284.8pt x 732.7375pt>
+[4] <../img/Dendrogram.png, id=165, 1284.8pt x 732.7375pt>
 File: ../img/Dendrogram.png Graphic file (type png)
 
 <use ../img/Dendrogram.png>
-<../img/BoxPlot.png, id=151, 1284.8pt x 732.7375pt>
+<../img/BoxPlot.png, id=166, 1284.8pt x 732.7375pt>
 File: ../img/BoxPlot.png Graphic file (type png)
  <use ../img/BoxPlot.png>
 
@@ -1496,7 +1496,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6 <../img/BoxPlot.png (PNG copy)>] (./clustering.tex
-<../img/Distance.png, id=170, 1284.8pt x 732.7375pt>
+<../img/Distance.png, id=185, 1284.8pt x 732.7375pt>
 File: ../img/Distance.png Graphic file (type png)
  <use ../img/Distance.png>
 
@@ -1568,7 +1568,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11] <../img/knime.jpg, id=230, 181.67876pt x 72.27pt>
+[11] <../img/knime.jpg, id=242, 181.67876pt x 72.27pt>
 File: ../img/knime.jpg Graphic file (type jpg)
  <use ../img/knime.jpg>
 AED: lastpage setting LastPage
@@ -1596,7 +1596,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the main.log file.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
-<../img/INSA.jpg, id=235, 530.73282pt x 285.31593pt>
+<../img/INSA.jpg, id=247, 530.73282pt x 285.31593pt>
 File: ../img/INSA.jpg Graphic file (type jpg)
  <use ../img/INSA.jpg>
 
@@ -1623,10 +1623,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21933 strings out of 495074
- 366685 string characters out of 3182083
- 600659 words of memory out of 3000000
- 24227 multiletter control sequences out of 15000+200000
+ 21936 strings out of 495074
+ 366748 string characters out of 3182083
+ 600739 words of memory out of 3000000
+ 24230 multiletter control sequences out of 15000+200000
  28874 words of font info for 76 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  65i,16n,74p,1272b,665s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1648,10 +1648,10 @@ exmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/local/share/t
 exmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/local/share/t
 exmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></opt/local/share/te
 xmf-texlive-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
-Output written on ../tmp//main.pdf (13 pages, 563001 bytes).
+Output written on ../tmp//main.pdf (13 pages, 563535 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
- 272 compressed objects within 3 object streams
+ 327 PDF objects out of 1000 (max. 8388607)
+ 284 compressed objects within 3 object streams
  68 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

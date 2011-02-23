@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/MacPorts 2010_0) (format=pdflatex 2011.1.9)  23 FEB 2011 08:46
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/MacPorts 2010_0) (format=pdflatex 2011.1.9)  23 FEB 2011 08:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1511,7 +1511,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
  []
 
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 72.
+ine 70.
 <../img/workflow.png, id=191, 654.445pt x 155.58125pt>
 File: ../img/workflow.png Graphic file (type png)
 
@@ -1630,7 +1630,7 @@ exmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/local/share/t
 exmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/local/share/t
 exmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></opt/local/share/te
 xmf-texlive-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
-Output written on ../tmp//main.pdf (13 pages, 572959 bytes).
+Output written on ../tmp//main.pdf (13 pages, 572937 bytes).
 PDF statistics:
  319 PDF objects out of 1000 (max. 8388607)
  275 compressed objects within 3 object streams

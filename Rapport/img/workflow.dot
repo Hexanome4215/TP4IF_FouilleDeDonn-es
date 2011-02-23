@@ -1,0 +1,16 @@
+digraph G {
+	{
+		node [shape=plaintext];
+		Fitrage -> Clusturing;
+	}
+
+	{
+		node [shape=rectangle];
+		{ rank = same; "Réduction des dimensions" "Outliers" "Valeurs manquantes" }
+		{ 	"Réduction des dimensions" -> "Clustering";
+			"Outliers" -> "Clustering";
+			"Valeurs manquantes" -> "Clustering" 
+		}
+
+	}
+}

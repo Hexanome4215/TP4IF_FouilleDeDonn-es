@@ -39,13 +39,35 @@ Nous pouvons dors et déjà distinguer deux types de \eng{clustering} :
 	\item Le \eng{clustering} partitionnel :
 \end{itemize}
 
-\subsubsection{\eng{Hierarchical Clustering}}
-\paragraph{Arbre de décision}
+Nous n'avons pas d'intérêt dans ce document à détailler le fonctionnement interne de ces algorithmes, cependant, il est intéressant de voir dans quel cas nous choisirons l'un ou l'autre.\\
 
-\subsubsection{\eng{Clustering} partitionnel}
-\paragraph{\eng{K-Mean}}
+\clusterAlgorithm
+{K-Mean}
+{Partitionnel}
+{
+	\item Accepte un \eng{dataset} relativement grand.
+	\item Rapide.
+	\item Donne une appartenance binaire (\ie \og appartient\fg~ou \og n'appartient pas\fg~au cluster).
+}
+{
+	\item Sensible aux conditions initiales, il nécessite donc une vérification de la stabilité.
+}
 
-\paragraph {\eng{Fuzzy C-Mean}} 
+\clusterAlgorithm
+{Fuzzy C-Mean}
+{Partitionnel}
+{
+	\item Accepte un \eng{dataset} relativement grand.
+	\item Rapide.
+	\item Donne une appartenance réelle (\ie le pourcentage d'appartenance à chaque cluster) au cluster.
+}
+{
+	\item Sensible aux conditions initiales, il nécessite donc une vérification de la stabilité.
+}
 
 \subsubsection{Normalisation}
+
 \todo{Elle est parfois inutile (dans le cas de valeur en pourcentages \eg}
+
+\subsection{Conclusion}
+\image{workflow}{0.5}

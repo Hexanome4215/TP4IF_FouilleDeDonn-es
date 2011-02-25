@@ -34,6 +34,7 @@ Par conséquent, le choix entre ces différentes fonction de distance s'effectue
 Une fois les données \og nettoyées\fg~et le nombre de \eng{clusters} déterminé, il est enfin temps de procéder au \eng{clustering} (\textsl{enfin !}).
 
 Nous pouvons dors et déjà distinguer deux types de \eng{clustering} :
+\todo{}
 \begin{itemize}
 	\item Le \eng{clustering} hiérarchique :
 	\item Le \eng{clustering} partitionnel :
@@ -66,8 +67,17 @@ Nous n'avons pas d'intérêt dans ce document à détailler le fonctionnement in
 }
 
 \subsubsection{Normalisation}
+La question de la normalisation est fondamentale dans le sens qu'elle influence le résultat donné par les algorithmes de \eng{clustering} du même type que \eng{K-Mean}. En effet, \eng{K-Mean} ne normalise pas automatiquement les données et la magnitude de celles-ci peuvent alors influencer ce \eng{clustering}.
 
-\todo{Elle est parfois inutile (dans le cas de valeur en pourcentages \eg}
+Nous disponsong de plusieurs types de normalisation :
+\todo{}
+\begin{itemize}
+	\item [Min-Max] 
+	\item [Z-Score]
+	\item [Decimal Scaling] 
+\end{itemize}
+
+Elle est cependant inutile dans le cas de valeurs relatives (\eg du type pourcentages).
 
 \subsection{Conclusion}
-\image{workflow}{0.5}
+Bien que cette partie résumant notre démarche expérimentale pourrait ressembler à un résumé du cours et des mes lectures sur le sujet, il nous a permit d'une part d'aborder des questions épineuses comme la normalisation, le manques de valeurs ou encore la malédiction du clustering, et ceux, en détail. De plus, il nous a semblé cohérent que, à la vue d'un sujet aussi libre, nous nous devions de justifier nos résultats par l'application d'une méthode rigoureuse.

@@ -37,6 +37,15 @@
 	\end{center}%
 }
 
+\newcommand{\Citation}[2][null]
+{
+	\begin{center}%
+		\begin{tabular}{p{0.1\textwidth}p{0.7\textwidth}p{0.1\textwidth}}%
+			{\Huge\bf\og}&\hspace*{-0.5cm}\centering\sl#2\ifthenelse{\equal{#1}{null}}{}{~\\\begin{flushright}#1\end{flushright}}&{\Huge\bf\fg}%
+		\end{tabular}%
+	\end{center}%
+}
+
 \begin{document}
 \maketitle
 \tableofcontents

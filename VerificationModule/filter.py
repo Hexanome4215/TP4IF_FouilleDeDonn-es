@@ -22,40 +22,40 @@ nbClusterIndex = idts.findColumnIndex("nbCluster")
 
 MaxDimensionIndex = nbClusterIndex - 1
 
+# Lecture des données
+rows = []
+while iterator.hasNext():
+	row =  iterator.next()
+	rows.append(row)
+
 iterationColIndex = idts.findColumnIndex("Iteration") 
 iterationList = [] # ( [cluster1, cluster2, ... ] ) 
-rows = []
-row =  iterator.next()
-rows.append(row) 
-while iterator.hasNext():
+
+for currentRow in rows:
 	clustersCoordinates = []
-	nbClusters = str(row.getCell(nbClusterIndex)) 
+	nbClusters = str(currentRow.getCell(nbClusterIndex)) 
 
 	# Récupération des données
 	for i in range(0, int(nbClusters)):
 		currentCluster = []
 
 		for j in range(1, MaxDimensionIndex):
-			currentCluster.append(str(row.getCell(j))) 
+			currentCluster.append(str(currentRow.getCell(j))) 
 
 		clustersCoordinates.append(currentCluster)
-
-		if iterator.hasNext():
-			row = iterator.next()
-			rows.append(row) 
-
 		clustersCoordinates.sort()
-
 		iterationList.append(clustersCoordinates) 
 
-	# Analyse
-	# List -> Set
-	uniques = []
-	for x in iterationList:
-		if x not in uniques: uniques.append(x)
+# Analyse
+# List -> Set
+uniques = []
+for x in iterationList:
+	if x not in uniques: uniques.append(x)
 
-	# Sortie du résultat
-	for r in rows:
-		resultCell = StringCell(str(len(uniques)))
-		newRow = AppendedColumnRow(r, [resultCell])
-		outContainer.addRowToTable(newRow)
+print(uniques)
+
+# Sortie du résultat
+for currentRow in rows:
+	resultCell = StringCell(str(len(uniques)))
+	newRow = AppendedColumnRow(currentRow, [resultCell])
+	outContainer.addRowToTable(newRow)

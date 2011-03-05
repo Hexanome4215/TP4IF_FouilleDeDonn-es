@@ -1,2 +1,19 @@
 \newpage
 \section{Création d'un module de vérification du \eng{K-Mean}}
+En plus des études de fouille de donnée réalisé, il nous a semblé important d'avoir une compréhension plus approfondi des enjeux de la vérification des résultats ainsi que de l'utilisation du logiciel utilisé pour le TP : \textsl{Knime}.
+
+C'est pourquoi nous avons réalisé une boite \footnote{Le terme \textsl{Knime} est \textsl{meta node}} permettant de vérifier très simplement le convergence de l'algorithme \textsl{K-Mean}.
+
+\subsection{Principe de l'algorithme}
+Le principe est relativement simple. En effet, mon algorithme se \og contente\fg~ de compter les différentes configurations de clusters observées au travers des itérations (et donc des configurations initiales).
+
+\subsection{Implémentation}
+\image[Vue de l'utilisateur final]{EndUserView}{0.8}
+\image[Vue intérieure de la boite]{SubNodeView}{0.8}
+\image[Résultat]{Result}{0.5}
+\code[Python]{Code python}{../../VerificationModule/filter.py}
+
+\subsection{Axes d'amélioration}
+Pour des raisons de temps, nous avons choisi de ne pas implémenter l'ensemble des fonctions que nous aurions voulues. Par exemple, il serait très utile de connaitre la fréquence d'apparition des configurations de clusters afin de déterminer sur une configuration est \og minoritaire\fg~ par rapport à une autre. 
+
+\citation{Peut-être que les 4IF de l'année prochaine seront tentés de reprendre le code pour l'améliorer !}

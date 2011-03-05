@@ -17,13 +17,17 @@
 \contentsline {paragraph}{\relax \textsl {Clustering} hi\IeC {\'e}rarchique}{7}{section*.9}
 \contentsline {subsection}{\numberline {2.3}\textsl {Clustering}}{8}{subsection.2.3}
 \contentsline {subsubsection}{\numberline {2.3.1}Normalisation}{8}{subsubsection.2.3.1}
-\contentsline {subsection}{\numberline {2.4}Conclusion}{8}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.4}Conclusion}{9}{subsection.2.4}
 \contentsline {section}{\numberline {3}Secteurs d'activit\IeC {\'e} des diff\IeC {\'e}rents pays}{10}{section.3}
 \contentsline {subsection}{\numberline {3.1}S\IeC {\'e}lection des donn\IeC {\'e}es}{10}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}\textsl {Clustering}}{10}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}\textsl {Clustering} hi\IeC {\'e}rarchique}{10}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}\textsl {Clustering K-Means}}{10}{subsubsection.3.2.2}
-\contentsline {paragraph}{\relax V\IeC {\'e}rification de la stabilit\IeC {\'e} du \textsl {clustering}}{10}{section*.16}
+\contentsline {paragraph}{\relax V\IeC {\'e}rification de la stabilit\IeC {\'e} du \textsl {clustering}}{10}{section*.15}
 \contentsline {subsection}{\numberline {3.3}Interpr\IeC {\'e}tation}{10}{subsection.3.3}
 \contentsline {subsubsection}{\numberline {3.3.1}Arbre de d\IeC {\'e}cision}{10}{subsubsection.3.3.1}
 \contentsline {section}{\numberline {4}Cr\IeC {\'e}ation d'un module de v\IeC {\'e}rification du \textsl {K-Mean}}{11}{section.4}
+\contentsline {subsection}{\numberline {4.1}Principe de l'algorithme}{11}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Impl\IeC {\'e}mentation}{11}{subsection.4.2}
+\contentsline {paragraph}{\relax Code python}{12}{section*.17}
+\contentsline {subsection}{\numberline {4.3}Axes d'am\IeC {\'e}lioration}{13}{subsection.4.3}

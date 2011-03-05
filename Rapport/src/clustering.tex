@@ -69,12 +69,11 @@ Nous n'avons pas d'intérêt dans ce document à détailler le fonctionnement in
 \subsubsection{Normalisation}
 La question de la normalisation est fondamentale dans le sens qu'elle influence le résultat donné par les algorithmes de \eng{clustering} du même type que \eng{K-Mean}. En effet, \eng{K-Mean} ne normalise pas automatiquement les données et la magnitude de celles-ci peuvent alors influencer ce \eng{clustering}.
 
-Nous disponsong de plusieurs types de normalisation :
-\todo{}
+Nous disposons de plusieurs types de normalisation :
 \begin{itemize}
-	\item [Min-Max] 
-	\item [Z-Score]
-	\item [Decimal Scaling] 
+	\item [Min-Max] C'est la technique de normalisation linéaire classique. Elle soustrait la valeur minimum de l'attribut à toutes la valeurs et les divise ensuite par la plus grande valeur de l'attribut. Nous obtenons ainsi un attribut borné dans $[0; 1]$. Ce type de normalisation peut être utilisé partout, est bijective (\textsl{sous entendu : facilement bijective}) et ne modifie que linéairement les données.  
+	\item [Z-Score] La technique Z-Score est déjà beaucoup moins anodine et a utiliser avec précaution. En effet, elle mesure l'écart entre l'écart type et la moyenne. Cette transformation se base sur un distribution gaussienne des données (\cf Loi normale) et n'est ni bijective ni linéaire, ce qui en fait une normalisation à utiliser que si l'on sait ce que l'on fait.
+	\item [Decimal Scaling] C'est une division par la plus petite puissance de dix faisant passer la plus grande valeur de l'attribut en dessous de 1. C'est linéaire, simple et relativement efficace. De plus, cette opération conserve les ordres de grandeurs ce que les deux méthodes précédentes ne font pas.
 \end{itemize}
 
 Elle est cependant inutile dans le cas de valeurs relatives (\eg du type pourcentages).
